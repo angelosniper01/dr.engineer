@@ -2,9 +2,53 @@
 <html lang="en">
     <head>
         <title>My Tutorial</title>
+        <style>
+            div{
+                background-color: teal;
+                width: 300px;
+                height: 100px;
+                margin: 30px;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+                font-size: 28px;
+                font-weight: bold;
+                border: 3px solid red;
+            }
+            table{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th, td{
+                border: 2px solid black; 
+            }
+
+            #top{
+                font-size: 32px;
+            }
+            #middle{
+                font-size: 25px;
+            }
+            #bottom{
+                font-size: 16px;
+            }
+            .name{
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
         <h1 style="text-align: center;color: navy">My Web Page.com.ph</h1>
-        <h2>Zion Cute Geronimo</h2>
+        <div>
+        <p>Zion Cute Geronimo</p>
+        </div>
+        <div id="top">
+            This is the<span class="name">Top</span> Web page.
+        </div>
+        <div id="middle">
+            This is the<span class="name">Middle</span> Web page.
+        </div>
+        <div id="bottom">
+            This is the<span class="name">Bottom</span> Web page.
+        </div>
     </body>
 </html>
